@@ -5,7 +5,7 @@ from rest_framework.pagination import LimitOffsetPagination
 from .permissions import IsAuthorOrReadOnly
 from .serializers import (
     CommentSerializer,
-    FollowSerializer, 
+    FollowSerializer,
     GroupSerializer,
     PostSerializer
 )
